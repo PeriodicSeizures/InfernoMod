@@ -1,6 +1,7 @@
 package com.crazicrafter1.inferno.mixin;
 
-import com.crazicrafter1.inferno.InfernoMod;
+import com.crazicrafter1.inferno.Inferno;
+import com.crazicrafter1.inferno.InfernoInitializer;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -11,6 +12,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class ExampleMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		InfernoMod.LOGGER.info("This line is printed by an example mod mixin!");
+		Inferno.LOGGER.info("This line is printed by an example mod mixin!");
 	}
 }
