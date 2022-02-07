@@ -1,5 +1,6 @@
 package com.crazicrafter1.inferno;
 
+import com.crazicrafter1.inferno.block.FerBlocks;
 import com.crazicrafter1.inferno.item.FerItems;
 import net.minecraft.client.MinecraftClient;
 import org.apache.logging.log4j.LogManager;
@@ -21,8 +22,6 @@ public enum Inferno {
         LOGGER.info("Initializing inferno");
 
         FerItems.registerItems();
-
-
-
+        FerBlocks.registerBlocks();
     }
 }
