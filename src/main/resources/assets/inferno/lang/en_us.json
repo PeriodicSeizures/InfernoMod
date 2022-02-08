@@ -1,5 +1,7 @@
 {
   "item.inferno.ambrosia": "Ambrosia",
+  "item.inferno.chalice": "Golden Chalice",
+  "item.inferno.ambrosia_chalice": "Chalice of Ambrosia",
 
-  "block.inferno.elysian_wall": "Elysian Wall"
+  "block.inferno.elysian_bricks": "Elysian Bricks"
 }

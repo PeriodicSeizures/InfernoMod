@@ -19,6 +19,9 @@
   "entrypoints": {
     "main": [
       "com.crazicrafter1.inferno.InfernoInitializer"
+    ],
+    "client": [
+      "com.crazicrafter1.inferno.InfernoClient"
     ]
   },
   "mixins": [

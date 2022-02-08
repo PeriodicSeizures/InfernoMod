@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "inferno:ambrosia" },
+    { "item": "inferno:ambrosia" },
+    { "item": "inferno:ambrosia" },
+    { "item": "inferno:chalice" }
+  ],
+  "result": {
+    "item": "inferno:ambrosia_chalice",
+    "count": 1
+  }
+}
