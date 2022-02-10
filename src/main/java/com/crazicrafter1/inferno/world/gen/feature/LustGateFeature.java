@@ -82,7 +82,7 @@ public class LustGateFeature extends StructureFeature<DefaultFeatureConfig> {
             StructurePoolBasedGenerator.method_30419(
                     dynamicRegistryManager,
                     new StructurePoolFeatureConfig(() -> dynamicRegistryManager.get(Registry.TEMPLATE_POOL_WORLDGEN)
-                            .get(new Identifier(Inferno.MOD_ID, "lust_gate/temple_pool")), // Starting Template Pool JSON path
+                            .get(new Identifier(Inferno.MOD_ID, "lust_gate/start_pool")), // Starting Template Pool JSON path
                             10),// Max recursive jigsaw structures
                     PoolStructurePiece::new,
                     chunkGenerator,
