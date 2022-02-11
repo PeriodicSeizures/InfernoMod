@@ -1,0 +1,35 @@
+{
+  "name": "inferno:lust_gate/side_room_pool",
+
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "inferno:lust_gate/descent/crypt/crypt",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    //{
+    //  "weight": 1,
+    //  "element": {
+    //    "location": "inferno:lust_gate/descent/library/library",
+    //    "processors": "minecraft:empty",
+    //    "projection": "rigid",
+    //    "element_type": "minecraft:single_pool_element"
+    //  }
+    //},
+    {
+      "weight": 1,
+      "element": {
+        "location": "inferno:lust_gate/descent/blank_wall",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

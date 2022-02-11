@@ -1,5 +1,5 @@
 {
-  "name": "inferno:lust_gate/temple_pool",
+  "name": "inferno:lust_gate/descent_pool",
 
   "fallback": "minecraft:empty",
 
@@ -11,12 +11,6 @@
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
-      }
-    },
-    {
-      "weight": 1,
-      "element": {
-        "element_type": "minecraft:empty_pool_element"
       }
     }
   ]

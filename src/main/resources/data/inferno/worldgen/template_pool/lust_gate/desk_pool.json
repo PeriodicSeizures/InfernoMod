@@ -1,5 +1,5 @@
 {
-  "name": "inferno:lust_gate/crypt_pool",
+  "name": "inferno:lust_gate/desk_pool",
 
   "fallback": "minecraft:empty",
 
@@ -7,7 +7,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "inferno:lust_gate/descent/crypt/crypt",
+        "location": "inferno:lust_gate/descent/library/desk1",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -16,7 +16,10 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:empty_pool_element"
+        "location": "inferno:lust_gate/descent/library/desk2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
       }
     }
   ]

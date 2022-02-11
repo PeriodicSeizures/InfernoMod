@@ -19,8 +19,8 @@ public class FerStructureFeatures {
         FabricStructureBuilder.create(new Identifier(Inferno.MOD_ID, "example_bush"), EXAMPLE_BUSH)
                 .step(GenerationStep.Feature.SURFACE_STRUCTURES)
                 .defaultConfig(new StructureConfig(
-                        10, // avg chunks apart
-                        5, // min chunks apart
+                        15, // avg chunks apart
+                        7, // min chunks apart
                         399117345 // seedish
                 ))
                 .superflatFeature(EXAMPLE_BUSH.configure(FeatureConfig.DEFAULT))
@@ -32,7 +32,7 @@ public class FerStructureFeatures {
                 .defaultConfig(new StructureConfig(
                         10, // avg chunks apart
                         5, // min chunks apart
-                        399117345 // seedish
+                        233445765 // seedish
                 ))
                 .superflatFeature(LUST_GATE.configure(FeatureConfig.DEFAULT))
                 .adjustsSurface()
